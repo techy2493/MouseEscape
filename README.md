@@ -8,6 +8,10 @@ Warning. I wanted this quickly and was lazy because while I've worked with Harmo
 
 This guide walks you through everything you need to get **SPTarkov** running reliably on **Linux** using **Wine**, **GE-Proton**, or **GE-Wine** (through Lutris). It covers how to fix issues like crashes, mouse capture bugs, multi-monitor problems, and setup for DXVK and BepInEx plugins.
 
+
+# THE INFORMATION BELOW IS USED AT YOUR OWN RISK.
+What worked for me may not work for you. The author takes no responsibility for you breaking your own setup by following any of the suggestions below. Be Careful. Take Backups. Keep track of where you are. Undo it if it doesnt work! You have been warned!
+
 ---
 
 # Having Joy with Multiple Monitors and SPTarkov on Linux
@@ -117,7 +121,7 @@ To get full control over mouse trapping behavior (common in Unity games like Tar
 
 ### Install location:
 ```bash
-/mnt/linuxgame/tarkov/drive_c/SPTarkov/BepInEx/plugins/MouseEscapePlugin/
+/<LocationOfSPTarkov>/BepInEx/plugins/MouseEscapePlugin/
 ```
 
 ### Plugin features:
